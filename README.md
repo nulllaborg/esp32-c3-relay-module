@@ -46,7 +46,7 @@ Plug your ESP32-C3 directly into the onboard socket and you're done. Power, grou
 | **Compatible MCUs** | ESP32-C3 (direct socket), any 3.3 V / 5 V MCU via PH2.0-4Pin |
 | **Control Pins (ESP32-C3)** | GPIO5 (S1) → Relay 1, GPIO6 (S2) → Relay 2 |
 | **Power Input** | USB-C (5 V) or 5 V screw terminal |
-| **Power Output (PH2.0)** | 5 V / 3.3 V selectable for external sensors |
+| **Power Input (PH2.0)** | 5 V / 3.3 V, Support ESP32 and Arduino |
 | **Operating Temperature** | -40 °C to +85 °C |
 
 ---
