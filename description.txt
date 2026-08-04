@@ -1,0 +1,26 @@
+ESP32-C3 Relay Module, 2-Channel Low-Level Trigger Board | Smart Home Relay Expansion Board, Support ESPHome & Home Assistant, USB-C / 5V Terminal Power Options for DIY Remote Control
+
+Direct ESP32-C3 Plug-and-Play Design: Seamlessly connects with ESP32-C3 development boards without complex wiring. Ideal for quick DIY setup of smart home automation and remote control projects. The onboard socket connects directly to the ESP32-C3's 5V, GND, D1, and D2 pins (power supply and dual-channel relay control signals).
+ESPHome & Home Assistant Ready: Fully compatible with ESPHome and Home Assistant platforms. Includes GitHub documentation and practical code examples for rapid integration into your smart home network.
+Versatile Power Options: Flexible power input via Type-C USB port or 5V screw terminal block, allowing reliable power delivery based on your specific setup needs.
+4 Flexible Operating Modes: Supports Type-C power, 5V terminal power, standalone PH2.0-4Pin connection to external microcontrollers, and pin expansion for attaching extra sensors alongside the ESP32-C3.
+Reliable Low-Level Trigger: Features 2-channel low-level trigger relays for accurate and stable signal control, suitable for switching household appliances and low-voltage circuits.
+
+Upgrade your smart home projects with this 2-Channel Relay Module designed specifically for ESP32-C3 development boards. Eliminate messy breadboard connections and tedious wiring—simply plug in your ESP32-C3 board (Included) to start building custom remote-controlled switches and automation systems.
+
+Native support for ESPHome and Home Assistant ensures smooth integration into your existing home network. We provide complete GitHub documentation along with ready-to-use ESPHome example code to help you get started immediately.
+
+Docs: github.com/nulllaborg/esp32-c3-relay-module
+
+Key Operating Modes
+1. Type-C Powered: Connect an ESP32-C3 and power the setup directly via the Type-C USB port. The onboard socket connects directly to the ESP32-C3's 5V, GND, D1, and D2 pins (power supply and dual-channel relay control signals).
+2. Terminal Powered: Connect an ESP32-C3 and power via the 5V screw terminal block.
+3. External Microcontroller Use: Connect directly to other controllers using the standard PH2.0-4Pin interface (Support 3.3V /5V).
+4. Sensor Expansion Mode: Plug in an ESP32-C3 while utilizing extra header pins to connect external sensors (e.g., temperature, motion, or light sensors).
+
+Specifications
+Channels: 2-Channel Relay
+Max Load Rating: AC 250V / 10A | DC 30V / 10A
+Trigger Type: Low-Level Trigger
+Compatibility: ESP32-C3, ESPHome, Home Assistant, general microcontrollers (via PH2.0-4Pin)
+Power Supply Options: Type-C USB or 5V Screw Terminal
