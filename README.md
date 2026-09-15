@@ -13,6 +13,11 @@
 
 ---
 
+## Module Document
+[Module Schematic](./2_relay_module_sch.pdf)</br>
+[3D Model of the Module](./2_relay_module_3d.zip)</br>
+[Relay Datasheet](./SRD-05VDC-SL-C_datasheet.pdf)
+
 ## Why This Module?
 
 Most relay projects start the same way — a breadboard, a pile of jumper wires, an ESP32 dev board, a separate relay module, and a frustrating half hour of tracing which wire goes where. **This board eliminates all of that.**
