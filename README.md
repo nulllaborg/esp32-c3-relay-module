@@ -30,14 +30,14 @@ Plug your ESP32-C3 directly into the onboard socket and you're done. Power, grou
 
 | Feature | Detail |
 |---|---|
-| 🎯 **Direct Plug-and-Play** | Onboard female header socket maps directly to ESP32-C3 5V, GND, S1 (GPIO5), S2 (GPIO6) |
-| 🏠 **ESPHome & HA Native** | Pre-built YAML configs included; auto-discovery in Home Assistant via the ESPHome dashboard |
-| ⚡ **Dual Power Input** | Type-C USB **or** 5V screw terminal — use whichever fits your enclosure |
-| 🔀 **4 Operating Modes** | USB-powered, terminal-powered, external MCU (PH2.0-4Pin), or sensor expansion |
-| 🛡 **Optocoupler Isolation** | Each relay channel is optically isolated from the control side |
-| 🔌 **2-Channel Low-Level Trigger** | Active-low logic; relay energizes when GPIO goes LOW — compatible with ESPHome's default relay platform |
-| 📐 **Compact Footprint** | Minimal board real estate; fits standard project enclosures (see [size reference](#board-dimensions)) |
-| 🧩 **Full Pin Expansion** | 2× 8-pin header pads break out every ESP32-C3 GPIO — solder the included pin headers to connect sensors, displays, or peripherals |
+| **Direct Plug-and-Play** | Onboard female header socket maps directly to ESP32-C3 5V, GND, S1 (GPIO5), S2 (GPIO6) |
+| **ESPHome & HA Native** | Pre-built YAML configs included; auto-discovery in Home Assistant via the ESPHome dashboard |
+| **Dual Power Input** | Type-C USB **or** 5V screw terminal — use whichever fits your enclosure |
+| **4 Operating Modes** | USB-powered, terminal-powered, external MCU (PH2.0-4Pin), or sensor expansion |
+| **Optocoupler Isolation** | Each relay channel is optically isolated from the control side |
+| **2-Channel Low-Level Trigger** | Active-low logic; relay energizes when GPIO goes LOW — compatible with ESPHome's default relay platform |
+| **Compact Footprint** | Minimal board real estate; fits standard project enclosures (see [size reference](#board-dimensions)) |
+| **Full Pin Expansion** | 2× 8-pin header pads break out every ESP32-C3 GPIO — solder the included pin headers to connect sensors, displays, or peripherals |
 
 ---
 
@@ -386,11 +386,11 @@ After running `esphome run esphome-relay.yaml`, ESPHome will compile, flash, and
 
 | Project | How It Works |
 |---|---|
-| 🚪 **Garage Door Controller** | Relay 1 pulses the opener; a reed sensor on the expansion header detects open/closed state |
-| 💡 **Smart Light Switch** | Relay wired in series with a light fixture; controlled via Home Assistant schedules or voice |
-| 🌱 **Irrigation Valve** | Relay switches a 24 VAC solenoid valve; a soil moisture sensor on the expansion header provides feedback |
-| 🔥 **Boiler / Heater Control** | Relay switches a thermostat line; DHT22 on expansion provides room temperature to HA |
-| 🏠 **Two-Appliance Power Strip** | Each relay controls one outlet; USB-C powers the ESP32 from a phone charger |
+| **Garage Door Controller** | Relay 1 pulses the opener; a reed sensor on the expansion header detects open/closed state |
+| **Smart Light Switch** | Relay wired in series with a light fixture; controlled via Home Assistant schedules or voice |
+| **Irrigation Valve** | Relay switches a 24 VAC solenoid valve; a soil moisture sensor on the expansion header provides feedback |
+| **Boiler / Heater Control** | Relay switches a thermostat line; DHT22 on expansion provides room temperature to HA |
+| **Two-Appliance Power Strip** | Each relay controls one outlet; USB-C powers the ESP32 from a phone charger |
 
 ---
 
